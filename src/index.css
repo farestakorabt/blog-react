@@ -1,0 +1,53 @@
+html,
+::before,
+::after {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  transition: color 0.4s ease-in-out;
+  margin-top: 15vh;
+}
+
+/* SCSS  */
+
+/* html {
+	box-sizing: border-box;
+	font-family: Helvetica;
+}
+&::before {
+	box-sizing: border-box;
+	font-family: Helvetica;
+}
+&::after {
+	box-sizing: border-box;
+	font-family: Helvetica;
+}
+body {
+	text-align: center;
+	transition: color 0.4s ease-in-out;
+	background-color: 0.4s ease-in-out;
+}
+.App {
+	margin-top: 10vh;
+}
+nav {
+	margin: 5vh 0;
+}
+a {
+	margin-right: 2%;
+	font-weight: bold;
+}
+.activeLink {
+	color: rgb(247, 3, 145);
+}
+ul {
+	list-style-type: none;
+}
+.dark-body {
+	background-color: #222;
+	color: #f1f1f1;
+} */
